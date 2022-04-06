@@ -27,10 +27,12 @@ h1{
 
 .container {
     text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 button {
-    margin: 0 5px 0 5px;
+    margin: 0 5px 25px 5px;
     padding: 8px 20px;
     border-radius: 7px;
     border-style: none;
@@ -47,5 +49,10 @@ button:hover {
 p {
     font-size: 50px;
     text-align: justify;
-    padding-left: 350px;
+    padding: 0 0 0 120px;
+}
+
+laps {
+    font-size: 50px;
+    margin-bottom: 50px;
 }
